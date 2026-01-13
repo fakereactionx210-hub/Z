@@ -1,45 +1,56 @@
-# 🐐 GOAT-BOT-V2
-> **The Greatest Of All Time multi-functional automation bot.**
+<p align="center">
+  <img src="https://files.catbox.moe/dvf1s1.jpg" width="150" height="150" style="border-radius: 50%; border: 3px solid #7000ff;" alt="Xalman Hossain">
+</p>
 
-![GitHub repo size](https://img.shields.io/github/repo-size/goatbotnx/GOAT-BOT-V2?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/goatbotnx/GOAT-BOT-V2?style=for-the-badge&color=orange)
-![License](https://img.shields.io/github/license/goatbotnx/GOAT-BOT-V2?style=for-the-badge&color=green)
+<h1 align="center">🐐 GOAT-BOT-V2</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Maintained%3F-Yes-green.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Build-Passing-brightgreen.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Bot_Version-V2.0-blueviolet?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <strong>The Greatest Of All Time multi-functional automation bot system.</strong>
+</p>
 
 ---
 
-## 👨‍💻 Developer Information
-Developed with ❤️ by **Xalman Hossain**. This project is designed to be a high-performance, modular bot system with a built-in dashboard and multi-language support.
+## 👨‍💻 Developed By
+**Xalman Hossain** *Passionate Developer | Bot Specialist | Automation Expert*
 
 ---
 
 ## 🚀 Key Features
-* **⚡ High Performance:** Optimized for low latency and fast response times.
-* **🖥️ Integrated Dashboard:** Manage your bot via a sleek web interface.
-* **🌍 Multi-Language:** Built-in support for multiple languages.
-* **🛡️ Robust API:** Uses a customized `fb-chat-api` for stable connections.
-* **📊 Database Management:** Structured logging and user data storage.
+* **⚡ Ultra Fast:** Highly optimized core for lightning-fast response times.
+* **🖥️ Web Dashboard:** Manage and monitor your bot settings through a clean UI.
+* **🌍 Localization:** Full support for multiple languages via the `languages/` folder.
+* **🛡️ Secure & Stable:** Built on a custom `fb-chat-api` for maximum stability.
+* **📊 Advanced Logging:** Comprehensive logging system to track every action.
 
 ---
 
-## 📂 Project Architecture
-The repository is organized into modular components for easy maintenance:
-
-| Folder | Description |
+## 📂 Repository Structure
+| Folder | Purpose |
 | :--- | :--- |
-| `bot/` | Core bot logic and command handlers. |
-| `dashboard/` | Web-based control panel files. |
-| `database/` | Storage and data management scripts. |
-| `fb-chat-api/` | Custom communication protocols. |
-| `languages/` | Localization and translation files. |
-| `scripts/` | Automation and utility scripts. |
+| 📁 `bot` | Core automation logic and command handlers. |
+| 📁 `dashboard` | Source code for the web management interface. |
+| 📁 `database` | System for user data and persistent storage. |
+| 📁 `fb-chat-api` | Modified API for platform communication. |
+| 📁 `func` | Shared utility functions and helper methods. |
+| 📁 `languages` | JSON files for multi-language support. |
+| 📁 `logger` | System logs and activity tracking. |
+| 📁 `scripts` | Maintenance and startup scripts. |
 
 ---
 
 ## 🛠️ Installation Guide
 
-Follow these steps to get your bot up and running:
+### Prerequisites
+- Node.js (Latest LTS)
+- NPM or Yarn
 
-### 1. Clone the Repository
-```bash
-git clone [https://github.com/goatbotnx/GOAT-BOT-V2.git](https://github.com/goatbotnx/GOAT-BOT-V2.git)
-cd GOAT-BOT-V2
+### Steps
+1. **Clone the project:**
+   ```bash
+   git clone [https://github.com/goatbotnx/GOAT-BOT-V2.git](https://github.com/goatbotnx/GOAT-BOT-V2.git)
