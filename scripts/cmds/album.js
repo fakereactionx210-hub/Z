@@ -29,7 +29,7 @@ module.exports = {
         return message.reply("⚠️ No categories found in API.");
       }
 
-      const itemsPerPage = 6;
+      const itemsPerPage = 8;
       const totalPages = Math.ceil(allCategories.length / itemsPerPage);
       let page = parseInt(args[0]) || 1;
 
