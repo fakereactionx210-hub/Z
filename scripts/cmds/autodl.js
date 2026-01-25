@@ -96,7 +96,7 @@ module.exports = {
         `📝 𝗧𝗶𝘁𝗹𝗲: ${title || "No Title"}\n` +
         `🌐 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺: ${source.toUpperCase()}\n` +
         `⏱️ 𝗧𝗶𝗺𝗲: ${time}s\n` +
-        `👨‍💻 Dev: xalman ` +
+        `👨‍💻 Dev: xalman \n ` +
         `━━━━━━━━━━━━━━━━━━`;
 
       await message.reply({
